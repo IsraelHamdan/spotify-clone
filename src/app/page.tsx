@@ -10,6 +10,7 @@ export default function home() {
         <Body />
       </div>
       <Footer />
+
     </div>
   );
 };
