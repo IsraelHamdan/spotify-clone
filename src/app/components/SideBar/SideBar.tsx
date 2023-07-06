@@ -42,21 +42,44 @@ export default function SideBar() {
                     <BiLibrary size={26} className="ml-2" />
                     Sua biblioteca
                 </a>
+                {/* futuramente separar isso em um componente que recebe os dados da API do Spotify */}
 
-                <nav className="mt-10 pt-10 border-t border-zinc-600">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                <nav className="mt-6 pt-6 border-t border-zinc-600 flex flex-col gap-2">
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
+                    <a href="" className="
+                        text-sm 
+                        text-zinc-400 
+                        hover:text-zinc-100"
+                    >Playlist</a>
                 </nav>
             </nav>
 
