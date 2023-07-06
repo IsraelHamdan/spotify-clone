@@ -1,23 +1,66 @@
 import React from "react";
-import { BiLibrary, BiHome, BiSearch } from 'react-icons/bi';
+import { BiLibrary, BiHome, BiSearch, BiLogoSpotify } from 'react-icons/bi';
 
 export default function SideBar() {
     return (
         <aside className="w-72 bg-zinc-950 p-6 ">
-            <nav className="space-y-4">
-                <a href="" className="flex itens-center gap-2 text-xs font-semibold text-zinc-100 ">
-                    Início
+            <div className="flex items-center ml-2">
+                <BiLogoSpotify size={35} />
+                <p className="text-lg font-semibold text-zinc-200 ml-1 ">Spotify Clone</p>
+            </div>
+            <nav className="space-y-5 mt-6  ">
+                <a href="" className="
+                            flex itens-center
+                            items-center 
+                            gap-3 
+                            text-sm 
+                            font-semibold
+                            text-zinc-200 "
+                >
                     <BiHome size={26} className="ml-2" />
+                    Início
                 </a>
-                <a href="" className="flex itens-center gap-2 text-xs font-semibold text-zinc-100 ">
-                    Busca
+                <a href="" className="
+                            flex 
+                            items-center 
+                            gap-3 
+                            text-sm 
+                            font-semibold
+                            text-zinc-200 "
+                >
                     <BiSearch size={26} className="ml-2" />
+                    Busca
                 </a>
-                <a href="" className="flex itens-center gap-2 text-xs font-semibold text-zinc-100 ">
-                    Sua biblioteca
+                <a href="" className="
+                            flex 
+                            items-center 
+                            gap-3 
+                            text-sm 
+                            font-semibold 
+                            text-zinc-200 "
+                >
                     <BiLibrary size={26} className="ml-2" />
+                    Sua biblioteca
                 </a>
+
+                <nav className="mt-10 pt-10 border-t border-zinc-600">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </nav>
             </nav>
-        </aside>
+
+
+        </aside >
     );
 };
