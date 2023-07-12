@@ -8,14 +8,10 @@ export const metadata = {
   description: 'Listen to music',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <body className="bg-zinc-900 text-zinc-50">{children}</body>
-    </html>
-  );
-}
+const RootLayout = ({ children }: { children: React.ReactNode; }) => (
+
+  <html lang="en">
+    <body className="bg-zinc-900 text-zinc-50">{children}</body>
+  </html>
+);
+export default RootLayout;
