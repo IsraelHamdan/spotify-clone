@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
-import PlaylistsRecomendadas from "../playlists/playlistsRecomendadas";
+import PlaylistsRecomendadas from "./playlistsRecomendadas";
+import PlaylistsMadeFor from "./PlaylistsMadeFor";
 
 const Body = () => {
     return (
@@ -16,6 +17,7 @@ const Body = () => {
             </div>
             <h1 className="font-semibold text-3xl">Bom Dia 🌞</h1>
             <PlaylistsRecomendadas />
+            <PlaylistsMadeFor />
         </main>
 
     );

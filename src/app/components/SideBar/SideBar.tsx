@@ -1,6 +1,6 @@
 import React from "react";
 import { BiLibrary, BiHome, BiSearch, BiLogoSpotify } from 'react-icons/bi';
-import Playlists from "../playlists/playlists";
+import Playlists from "./PlaylistsLateral";
 
 const SideBar = () => {
   return (
@@ -44,7 +44,6 @@ const SideBar = () => {
           <BiLibrary size={26} className="ml-2" />
           Sua biblioteca
         </a>
-        {/* futuramente separar isso em um componente que recebe os dados da API do Spotify */}
         <Playlists />
       </nav>
     </aside >

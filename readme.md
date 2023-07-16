@@ -6,5 +6,6 @@ As libs desse projeto são
     React Icons
     lucid-React 
     Tailwind.css
-    Next.js (para fazer a API automaticamente)
+    Next.js
+
 Se vc assistir o vídeo inteiro e perceber algumas diferenças, eu quis fazer algumas coisas diferentes, por exemplo o uso do React Icons
